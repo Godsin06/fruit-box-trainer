@@ -10,7 +10,7 @@ from PIL import Image, ImageTk
 from pynput.mouse import Listener
 
 # EasyOCR 로드
-reader = easyocr.Reader(['en'])
+reader = easyocr.Reader(['https://www.gamesaien.com/game/fruit_box_a/'])
 
 # 저장할 영역 정보
 selected_region = None
